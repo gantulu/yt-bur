@@ -273,9 +273,10 @@ Phase 7 — LOCKED
 Phase 8 — LOCKED  
 Phase 9 — LOCKED  
 Phase 10 — LOCKED  
-Phase 11 — LOCKED
+Phase 11 — LOCKED  
+Phase 12 — LOCKED
 
-Next: **Phase 12 — Feedback Engine**.
+Next: **Phase 13 — Output & Validation**.
 
 ## 15. Architectural Reference
 
