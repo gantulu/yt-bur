@@ -255,9 +255,10 @@ Phase 10 — LOCKED
 Phase 11 — LOCKED  
 Phase 12 — LOCKED  
 Phase 13 — LOCKED  
-Phase 14 — LOCKED
+Phase 14 — LOCKED  
+Phase 15 — LOCKED
 
-Next: **Phase 15 — Integration**.
+Next: **Phase 16 — @GitHub Functional Test**.
 
 ## 15. Architectural Reference
 
