@@ -264,9 +264,10 @@ For the automatic project pipeline, continue to the next phase without requestin
 
 Phase 0 — LOCKED  
 Phase 1 — LOCKED  
-Phase 2 — LOCKED
+Phase 2 — LOCKED  
+Phase 3 — LOCKED
 
-Next: **Phase 3 — Core Instructions**.
+Next: **Phase 4 — State Architecture**.
 
 ## 15. Architectural Reference
 
