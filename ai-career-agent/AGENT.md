@@ -1,6 +1,6 @@
 # AI CAREER DISCOVERY & DEVELOPMENT AGENT
 
-**Version:** V1.3  
+**Version:** V1.3.1  
 **Status:** VALIDATED  
 **Runtime:** ChatGPT + GitHub
 
@@ -266,9 +266,17 @@ Phase 18 — LOCKED
 Phase 19 — LOCKED  
 Phase 20 — VALIDATED
 
-Final: **V1.3 VALIDATED AGENT**.
+Final: **V1.3.1 RUNTIME-HARDENED AGENT**.
 
-## 15. Architectural Reference
+## 15. Runtime Version Boundary
+
+V1.3 defines the validated modular architecture. V1.3.1 is the runtime-hardening layer and is the current operational version.
+
+The canonical runtime sequence is `AGENT.md → retrieval-map.md → runtime-contract.md → current-stage bundle`.
+
+`v1.3-validated-agent.md` remains the historical V1.3 validation record. Runtime behavior must follow `runtime-contract.md`.
+
+## 16. Architectural Reference
 
 See:
 
