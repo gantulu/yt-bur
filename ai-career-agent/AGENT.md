@@ -260,8 +260,9 @@ Phase 15 — LOCKED
 Phase 16 — LOCKED  
 Phase 17 — LOCKED  
 Phase 18 — LOCKED
+Phase 19 — LOCKED
 
-Next: **Phase 19 — Evidence/Decision Audit**.
+Next: **Phase 20 — V1.3 Validated Agent**.
 
 ## 15. Architectural Reference
 
