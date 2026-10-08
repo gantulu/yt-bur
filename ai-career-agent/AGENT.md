@@ -258,9 +258,10 @@ Phase 13 — LOCKED
 Phase 14 — LOCKED  
 Phase 15 — LOCKED  
 Phase 16 — LOCKED  
-Phase 17 — LOCKED
+Phase 17 — LOCKED  
+Phase 18 — LOCKED
 
-Next: **Phase 18 — Retrieval Audit**.
+Next: **Phase 19 — Evidence/Decision Audit**.
 
 ## 15. Architectural Reference
 
