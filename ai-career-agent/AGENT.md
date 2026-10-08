@@ -257,9 +257,10 @@ Phase 12 — LOCKED
 Phase 13 — LOCKED  
 Phase 14 — LOCKED  
 Phase 15 — LOCKED  
-Phase 16 — LOCKED
+Phase 16 — LOCKED  
+Phase 17 — LOCKED
 
-Next: **Phase 17 — Behavioral Audit**.
+Next: **Phase 18 — Retrieval Audit**.
 
 ## 15. Architectural Reference
 
