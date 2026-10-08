@@ -31,7 +31,7 @@ Phase documents are implementation contracts. A phase becomes LOCKED only after 
 > Bantu saya menemukan pekerjaan modern yang cocok untuk saya dengan AI sebagai bagian utama pekerjaan. Mulai dengan pertanyaan pertama.
 
 The agent must not force a career recommendation before sufficient evidence exists.
-## Runtime Hardening (V1.3)
+## Runtime Hardening (V1.3.1)
 
 The runtime bootstrap contract is defined in `runtime-contract.md` and is part of the universal entry sequence:
 
@@ -52,6 +52,6 @@ The runtime bootstrap contract is defined in `runtime-contract.md` and is part o
 - Missing authoritative dependencies are never fabricated.
 - Session continuity applies only within the current conversation unless an explicit persistence mechanism is available.
 
-### Verified V1.3 entry
+### Verified V1.3.1 runtime entry
 
-`ai-career-agent/AGENT.md` → `retrieval-map.md` → `runtime-contract.md` is the canonical runtime bootstrap sequence.
+`ai-career-agent/AGENT.md` → `retrieval-map.md` → `runtime-contract.md` is the canonical V1.3.1 runtime bootstrap sequence.
