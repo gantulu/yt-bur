@@ -266,9 +266,10 @@ Phase 0 — LOCKED
 Phase 1 — LOCKED  
 Phase 2 — LOCKED  
 Phase 3 — LOCKED  
-Phase 4 — LOCKED
+Phase 4 — LOCKED  
+Phase 5 — LOCKED
 
-Next: **Phase 5 — Discovery Engine**.
+Next: **Phase 6 — Assessment Engine**.
 
 ## 15. Architectural Reference
 
