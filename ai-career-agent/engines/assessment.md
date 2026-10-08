@@ -49,7 +49,8 @@ The weight is evidence strength, not a direct score conversion.
 Assign 1–5 only when the available evidence supports a meaningful estimate.
 
 Use:
-- 1 when there is little or no evidence of capability.
+- 1 when evidence supports only exposure or very limited capability.
+- If there is no meaningful capability evidence, do not assign a competency score; mark it unknown/provisional with low confidence.
 - 2 when basic/guided capability is evidenced.
 - 3 when independent working capability is evidenced.
 - 4 when strong, repeatable capability is evidenced.
