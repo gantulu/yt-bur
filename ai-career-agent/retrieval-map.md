@@ -23,6 +23,8 @@ Always begin with:
 
 ```text
 ai-career-agent/AGENT.md
+ai-career-agent/retrieval-map.md
+ai-career-agent/runtime-contract.md
 ```
 
 Add only the bundle required by the current stage.
