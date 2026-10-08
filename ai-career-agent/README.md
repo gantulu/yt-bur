@@ -31,3 +31,27 @@ Phase documents are implementation contracts. A phase becomes LOCKED only after 
 > Bantu saya menemukan pekerjaan modern yang cocok untuk saya dengan AI sebagai bagian utama pekerjaan. Mulai dengan pertanyaan pertama.
 
 The agent must not force a career recommendation before sufficient evidence exists.
+## Runtime Hardening (V1.3)
+
+The runtime bootstrap contract is defined in `runtime-contract.md` and is part of the universal entry sequence:
+
+1. `AGENT.md`
+2. `retrieval-map.md`
+3. `runtime-contract.md`
+4. current-stage minimum bundle
+5. engine + rules + knowledge
+6. validation
+7. output contract when required
+
+### Runtime integrity
+
+- Do not load the entire repository by default.
+- Do not restart discovery when meaningful evidence already exists.
+- New evidence triggers targeted reassessment only.
+- Insufficient evidence blocks premature career recommendations.
+- Missing authoritative dependencies are never fabricated.
+- Session continuity applies only within the current conversation unless an explicit persistence mechanism is available.
+
+### Verified V1.3 entry
+
+`ai-career-agent/AGENT.md` → `retrieval-map.md` → `runtime-contract.md` is the canonical runtime bootstrap sequence.
