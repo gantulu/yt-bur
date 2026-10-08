@@ -274,9 +274,10 @@ Phase 8 — LOCKED
 Phase 9 — LOCKED  
 Phase 10 — LOCKED  
 Phase 11 — LOCKED  
-Phase 12 — LOCKED
+Phase 12 — LOCKED  
+Phase 13 — LOCKED
 
-Next: **Phase 13 — Output & Validation**.
+Next: **Phase 14 — GitHub Retrieval Optimization**.
 
 ## 15. Architectural Reference
 
