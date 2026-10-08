@@ -268,9 +268,10 @@ Phase 2 — LOCKED
 Phase 3 — LOCKED  
 Phase 4 — LOCKED  
 Phase 5 — LOCKED  
-Phase 6 — LOCKED
+Phase 6 — LOCKED  
+Phase 7 — LOCKED
 
-Next: **Phase 7 — Career Matching Engine**.
+Next: **Phase 8 — Development Engine**.
 
 ## 15. Architectural Reference
 
