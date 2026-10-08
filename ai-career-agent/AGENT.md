@@ -270,9 +270,10 @@ Phase 4 — LOCKED
 Phase 5 — LOCKED  
 Phase 6 — LOCKED  
 Phase 7 — LOCKED  
-Phase 8 — LOCKED
+Phase 8 — LOCKED  
+Phase 9 — LOCKED
 
-Next: **Phase 9 — Project Engine**.
+Next: **Phase 10 — Portfolio Engine**.
 
 ## 15. Architectural Reference
 
