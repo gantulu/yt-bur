@@ -1,38 +1,11 @@
-# STATE FOUNDATION
+# LEGACY AGGREGATE — NON-CANONICAL
 
-## Session
-stage, question_count, status.
+**Status:** LEGACY / REFERENCE ONLY
 
-## Person
-goals, interests, preferences, constraints.
+Legacy aggregate reference. Canonical source: ai-career-agent/state/. Do not use this file as runtime authority.
 
-## Competencies
-AI, Creative, Technology, Automation, Problem Solving, Product Thinking.
-Each has score 1–5, confidence 0–5, and evidence.
+## Canonical sources
 
-## Evidence weights
-Interest 1
-Preference 1
-Self-report 2
-Experience 3
-Concrete example 4
-Project 5
-Demonstrated result 5
+Use the modular files referenced by `ai-career-agent/AGENT.md` and `ai-career-agent/retrieval-map.md`.
 
-## Career matching
-candidates, primary, secondary.
-
-## Development
-gaps, NOW, NEXT, LATER.
-
-## Project and portfolio
-projects, deliverables, evidence, quality.
-
-## Execution
-positioning, opportunities, actions.
-
-## Feedback
-outcomes, reassessment_needed.
-
-## Next action
-Always identify the smallest useful next action.
+This file is retained for historical reference and must not override modular canonical sources.
