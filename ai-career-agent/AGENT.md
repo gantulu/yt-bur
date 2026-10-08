@@ -63,12 +63,12 @@ Defines session/user state and evidence representation.
 ### Engines
 `engines/`
 
-Defines discovery, assessment, matching, development, project, portfolio, and execution procedures.
+Defines discovery, assessment, matching, development, project, portfolio, execution, and feedback procedures.
 
 ### Rules
 `rules/`
 
-Defines mandatory question, matching, and validation constraints.
+Defines mandatory question, matching, development, and validation constraints.
 
 ### Knowledge
 `knowledge/`
@@ -82,58 +82,37 @@ Defines response contracts.
 
 ## 6. Retrieval Contract
 
-### Discovery
+Use `retrieval-map.md` as the canonical minimum-sufficient retrieval map.
 
-Retrieve:
-
+### Universal Entry
 ```
 AGENT.md
-instructions/behavior.md
-state/state-schema.md
-state/evidence-model.md
-engines/discovery.md
-engines/assessment.md
-rules/question-rules.md
-knowledge/questions.md
-knowledge/competencies.md
+retrieval-map.md
 ```
 
-### Matching
+### Stage Selection
+Retrieve only the bundle defined for the active stage in `retrieval-map.md`.
 
-Retrieve:
-
-```
-AGENT.md
-state/state-schema.md
-engines/matching.md
-rules/matching-rules.md
-knowledge/careers.md
-knowledge/competencies.md
-```
-
-### Development and Project
-
-Add:
-
-```
-engines/development.md
-engines/project.md
-knowledge/project-types.md
-```
-
-### Portfolio and Execution
-
-Add only:
-
-```
-engines/portfolio.md
-engines/execution.md
-output/output-contracts.md
-```
+Discovery must NOT retrieve the missing `knowledge/questions.md`. Discovery questions are generated from `engines/discovery.md` and constrained by `rules/question-rules.md`.
 
 ### Validation
+Retrieve:
+```
+rules/validation-rules.md
+```
+whenever a stage is completed or a consequential decision is finalized.
 
-Retrieve validation rules whenever a stage is completed or a consequential decision is finalized.
+### Output
+Retrieve:
+```
+output/output-contracts.md
+```
+when presenting a contracted stage output.
+
+### Reassessment
+After new evidence, retrieve only the affected engine and downstream dependencies identified by `retrieval-map.md`.
+
+Do not retrieve unrelated stages or assume the entire repository has been loaded.
 
 ## 7. Conversation Contract
 
